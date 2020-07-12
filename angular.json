@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Moxie-shops"
+    }
+  },
+  "defaultProject": "Moxie-shops",
+  "cli": {
+    "analytics": "69d9f0f4-63eb-4280-8556-bd185d4b9095"
+  }
 }
