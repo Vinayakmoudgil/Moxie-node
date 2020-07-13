@@ -1,0 +1,56 @@
+.toolbar {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .toolbar img {
+    margin: 0 16px;
+  }
+  
+  .toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+  
+  .toolbar #twitter-logo:hover {
+    opacity: 0.8;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  .example-form {
+    min-width: 150px;
+    max-width: 182px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-label {
+    color: #ffffff !important;
+  }
+  
+  ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-underline {
+    background-color: #ffffff !important;
+  }
+  
+  .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #ffffff !important;
+  }
+  /* Font color */
+  input.mat-input-element {
+    color: #ffffff !important;
+    caret-color: #ffffff !important;
+  }
